@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.top_header{
+	margin: 0px;
+}
+.top_links{
+	width:100%;
+	padding: 3px;
+	color: #fddb7d;
+	font-weight: bold;
+	background-color: #000;
+	text-align: center;
+	font-size: 11px;
+}
+
+.top_links a{
+	font-size: 11px;
+	background: rgba(144, 000, 010, 0.9);
+	display:inline-block;
+	padding: 0 10px;
+	color: #fbdb6b;
+	text-decoration: none;
+	text-align: center;
+	border-radius:2px;
+}
+.top_links a:hover{
+	background: rgba(255, 000, 018, 0.8);
+}
+
+.top_header{ 
+ display:none; 
+}

@@ -1,0 +1,29 @@
+.body{
+  background-color: #2a0001;
+}
+.desc{
+    margin-top: 5px;
+    color: #F3AA32;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+.desc h1, .desc h2,.top-desc h1, .top-desc h2{
+    margin: -5px 0 0 0;
+}
+
+.mobile-thumbs a img{
+  margin: 2px 0px;
+  padding: 0;
+  border: 0 solid #F3AA32;
+}
+
+.mobile-thumbs a img:hover{
+  border: 0 dashed #F3AA32;
+}
+
+.mobile-footer{
+    color: #F3AA32;
+    padding: 15px;
+    font-size: 9px;
+    line-height: 1;
+}
+

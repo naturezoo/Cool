@@ -1,0 +1,85 @@
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.top-desc h1 {
+    display: inline;
+}
+
+.top-desc,
+.top-desc h1 {
+    font-size: 13px;
+    line-height: 1.1;
+}
+
+@media screen and (min-width: 963px) and (max-width: 1484px) {
+    .mobile-thumbs img {
+
+        width: 24.4%;
+        height: auto;
+    }
+
+    .top-desc {}
+
+    .logo img {
+        width: 150px;
+        height: 45px;
+    }
+
+    .top-desc span,
+    .top-desc,
+    .top-desc div,
+    .top-desc h1 {
+        font-size: 13px;
+        line-height: 1;
+    }
+}
+
+@media screen and (min-width: 723px) and (max-width: 962px) {
+    .mobile-thumbs img {
+        width: 32.7%;
+        height: auto;
+    }
+
+    .top-desc {}
+
+    .logo img {
+        width: 150px;
+        height: 45px;
+    }
+
+    .top-desc span,
+    .top-desc div,
+    .top-desc,
+    .top-desc h1 {
+        font-size: 12px;
+        line-height: 1;
+    }
+}
+
+@media screen and (min-width: 100px) and (max-width: 722px) {
+    .mobile-thumbs img {
+        width: 49.50%;
+        height: auto;
+    }
+
+    .top-desc {}
+
+    .logo img {
+        width: 100px;
+        height: 30px;
+    }
+
+    .top-desc span,
+    .top-desc div,
+    .top-desc,
+    .top-desc h1 {
+        font-size: 11px;
+        line-height: 1;
+    }
+}
